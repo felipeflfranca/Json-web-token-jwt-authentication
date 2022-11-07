@@ -97,3 +97,7 @@
 [2022-11-07 10:20:42] [INFO] SERVICE: The service has been stopped
 [2022-11-07 10:20:51] [INFO] SERVICE: The service has started and is listening on port 3001
 [2022-11-07 10:20:51] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:29:19] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:29:19] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:29:35] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:29:35] [INFO] DATABASE: Connection to challenge database successfully established

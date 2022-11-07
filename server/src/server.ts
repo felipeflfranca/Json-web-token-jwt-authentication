@@ -5,7 +5,6 @@ import { clearBlackList } from './config/BlackList'
 const PORT = process.env.LISTENING_PORT || 3001
 
 const server = app.listen(PORT, () => {
-  console.log('iniciou o serviço')
   clearBlackList()
 
   Logger.info(
