@@ -2,12 +2,12 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
-RUN yarn install --production=true
+ENV PATH /app/node_modules/.bin:$PATH
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+RUN yarn install
+
+CMD ["yarn", "web"]

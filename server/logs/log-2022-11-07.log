@@ -127,3 +127,17 @@
 
 [2022-11-07 15:13:09] [HTTP] GET /api/user 200 152 - 107.354 ms
 
+[2022-11-07 15:22:20] [HTTP] GET /api/clinics 200 17 - 6.422 ms
+
+[2022-11-07 15:33:56] [INFO] SERVICE: The service has been stopped
+[2022-11-07 15:33:56] [INFO] DATABASE: Database connection closed
+[2022-11-07 15:33:56] [INFO] SERVICE: The service has been stopped
+[2022-11-07 15:34:55] [INFO] SERVICE: The service has started and is listening on port 3002
+[2022-11-07 15:34:55] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 15:46:13] [HTTP] GET / 404 139 - 6.886 ms
+
+[2022-11-07 15:49:48] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 15:49:49] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 15:58:34] [INFO] SERVICE: The service has been stopped
+[2022-11-07 15:58:34] [INFO] DATABASE: Database connection closed
+[2022-11-07 15:58:34] [INFO] SERVICE: The service has been stopped

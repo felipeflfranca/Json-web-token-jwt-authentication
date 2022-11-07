@@ -7,28 +7,33 @@ services:
     ports:
       - "3000:3000"
     depends_on:
+      - database
       - server
-  # server:
-  #   restart: always
-  #   build: 
-  #     context: ./server
-  #     dockerfile: ./Dockerfile
-  #   ports:
-  #     - "3001:3001"
-  #   volumes:
-  #      - logs:/usr/src/server/logs
-  #   depends_on:
-  #     - database
+  server:
+    restart: always
+    build: 
+      context: ./server
+      dockerfile: ./Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - logs:/usr/src/server/logs
+    depends_on:
+      - database
+    links:
+      - database
   database:
     image: "postgres:14.2"
     ports: 
       - "5433:5432"
     volumes:
-       - pgdata:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: challenge
+    expose:
+      - 5432
 volumes:
   pgdata : {}
   logs: {}

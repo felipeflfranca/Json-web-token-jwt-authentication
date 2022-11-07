@@ -1,5 +1,4 @@
 import { Request, Response } from 'express'
-import * as bcrypt from 'bcrypt'
 import * as jwt from 'jsonwebtoken'
 import UsersRepository from '../services/repositories/UsersRepository'
 import BlackListRepository from '../services/repositories/BlackListRepository'
@@ -24,6 +23,7 @@ export default class AuthController {
     const user = await this.usersRepository.signin(email)
 
     if (user) {
+      const bcrypt = require('bcrypt')
       const validPassword = await bcrypt.compare(password, user.password)
 
       if (validPassword) {
