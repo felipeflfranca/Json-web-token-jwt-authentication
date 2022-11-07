@@ -44,3 +44,56 @@
 
 [2022-11-07 01:11:45] [INFO] SERVICE: The service has started and is listening on port 3001
 [2022-11-07 01:11:45] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 02:00:41] [HTTP] POST /api/auth/login 200 - - 159.572 ms
+
+[2022-11-07 02:00:54] [HTTP] GET /api/user 200 152 - 92.192 ms
+
+[2022-11-07 02:01:23] [HTTP] GET /api/auth/logout 200 - - 3.792 ms
+
+[2022-11-07 02:02:47] [HTTP] GET /api/auth/logout 200 - - 4.758 ms
+
+[2022-11-07 09:59:56] [INFO] SERVICE: The service has been stopped
+[2022-11-07 09:59:56] [INFO] DATABASE: Database connection closed
+[2022-11-07 09:59:56] [INFO] SERVICE: The service has been stopped
+[2022-11-07 10:00:10] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:00:11] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:01:03] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:01:04] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:01:22] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:01:22] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:02:10] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:02:11] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:03:02] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:03:02] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:03:09] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:03:10] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:03:34] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:03:34] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:04:01] [INFO] SERVICE: The service has been stopped
+[2022-11-07 10:04:01] [INFO] DATABASE: Database connection closed
+[2022-11-07 10:04:01] [INFO] SERVICE: The service has been stopped
+[2022-11-07 10:04:09] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:04:09] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:04:36] [HTTP] POST /api/auth/login 200 - - 157.415 ms
+
+[2022-11-07 10:04:50] [HTTP] GET /api/user 200 152 - 97.006 ms
+
+[2022-11-07 10:06:02] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:06:02] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:07:47] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:07:47] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:14:54] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:14:55] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:15:29] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:15:29] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:16:31] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:16:31] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:17:33] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:17:33] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:20:09] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:20:09] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 10:20:41] [INFO] SERVICE: The service has been stopped
+[2022-11-07 10:20:41] [INFO] DATABASE: Database connection closed
+[2022-11-07 10:20:42] [INFO] SERVICE: The service has been stopped
+[2022-11-07 10:20:51] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 10:20:51] [INFO] DATABASE: Connection to challenge database successfully established

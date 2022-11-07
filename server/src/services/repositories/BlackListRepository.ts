@@ -15,7 +15,9 @@ export default class BlackListRepository implements BlackListInterface {
     await getRepository(TypeormBlackList).findOne({ token })
 
   eraseOldToken = async () =>
-    await getRepository(TypeormBlackList).delete({
-      expires: lessThanDate(new Date())
-    })
+    await getRepository(TypeormBlackList)
+      .createQueryBuilder('black_list')
+      .delete()
+      .where('expires < :expires', { expires: new Date() })
+      .execute()
 }
