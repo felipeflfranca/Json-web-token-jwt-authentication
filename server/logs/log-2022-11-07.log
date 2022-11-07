@@ -101,3 +101,29 @@
 [2022-11-07 10:29:19] [INFO] DATABASE: Connection to challenge database successfully established
 [2022-11-07 10:29:35] [INFO] SERVICE: The service has started and is listening on port 3001
 [2022-11-07 10:29:35] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 14:11:58] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 14:11:59] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 14:12:27] [INFO] SERVICE: The service has been stopped
+[2022-11-07 14:12:27] [INFO] DATABASE: Database connection closed
+[2022-11-07 14:12:27] [INFO] SERVICE: The service has been stopped
+[2022-11-07 14:12:46] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 14:12:46] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 14:14:27] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 14:14:27] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 14:15:03] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 14:15:04] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 14:15:15] [HTTP] POST /api/auth/login 200 - - 159.859 ms
+
+[2022-11-07 14:15:27] [HTTP] GET /api/user 200 152 - 102.590 ms
+
+[2022-11-07 14:15:40] [INFO] SERVICE: The service has been stopped
+[2022-11-07 14:15:40] [INFO] DATABASE: Database connection closed
+[2022-11-07 14:15:40] [INFO] SERVICE: The service has been stopped
+[2022-11-07 15:11:42] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 15:11:43] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 15:12:29] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-07 15:12:29] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-07 15:12:52] [HTTP] POST /api/auth/login 200 - - 169.792 ms
+
+[2022-11-07 15:13:09] [HTTP] GET /api/user 200 152 - 107.354 ms
+
