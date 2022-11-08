@@ -1,4 +1,4 @@
-# Clinic registration App - Challenge Fullstack
+# Json web token (jwt) authentication with node.js + React Native + React Native Web
 
 ## About
 
