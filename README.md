@@ -11,6 +11,9 @@ The API service allows logging in, retrieving logged user data and logging out.
 Observation: 
 Application under construction (No login form)
 
+## Setting up the development environment
+Install Xcode and Android studio and follow the [react native instructions](https://reactnative.dev/docs/environment-setup)
+
 ## Development
 
 - REST API backend is powered by Express.js, Node.js with Typescript and PostgreSQL database
