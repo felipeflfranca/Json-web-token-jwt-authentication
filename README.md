@@ -29,8 +29,7 @@ Install Xcode and Android studio and follow the [react native instructions](http
 ```
 docker-compose up -d
 ```
-
-<img width="932" alt="Captura de Tela 2022-11-08 às 00 58 44" src="https://user-images.githubusercontent.com/34171021/200557229-70738544-e7cf-4477-953d-ee49c144bddb.png">
+<img width="932" alt="200557229-70738544-e7cf-4477-953d-ee49c144bddb" src="https://user-images.githubusercontent.com/34171021/200647376-8428e4f0-8180-4ec5-b4db-d233e97cc706.png">
 
 - After completing open the browser and access:
 ```
