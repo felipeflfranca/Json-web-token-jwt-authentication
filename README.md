@@ -37,9 +37,9 @@ docker-compose up -d
 localhost:3000
 ```
 ## Accessing the logs
-<img width="930" alt="Captura de Tela 2022-11-08 às 13 38 56" src="https://user-images.githubusercontent.com/34171021/200623569-a4c78777-7264-4cdc-ab91-b524e71aca25.png">
+<img width="930" alt="Captura de Tela 2022-11-08 às 13 38 56" src="https://user-images.githubusercontent.com/34171021/200647027-8f268532-6f93-42bb-9dcc-2c3e3aa57a48.png">
 
-<img width="929" alt="Captura de Tela 2022-11-08 às 13 40 03" src="https://user-images.githubusercontent.com/34171021/200623788-6379ce39-5d33-4fc3-a1c2-75efd764479a.png">
+<img width="929" alt="Captura de Tela 2022-11-08 às 13 40 03" src="https://user-images.githubusercontent.com/34171021/200647094-e1d75d7c-5814-4c7c-b44c-99089e52aa17.png">
 
 ## Using the API
 
