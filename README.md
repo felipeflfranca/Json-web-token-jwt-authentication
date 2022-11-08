@@ -4,20 +4,18 @@
 
 This code is a dockerized example of a login API service with Json web token (JWT) and a simple app for Android, iOS and web with React Native and React Native Web.
 
-The intention is to create an application where the user can search and obtain the address data along with the latitude and longitude through the Google Maps API, register it in a database and do research by displaying the markers on the map with the name, cnpj and address of the clinic
+The API service allows logging in, retrieving logged user data and logging out.
+- When logging out the token is included in a table (blacklist) 
+- There is a cron configured on the ``server > .env > CLEAR_BLACK_LIST`` that erases the already peeked tokens
 
-## Registering and searching clinics with Google API
+## Development
 
 - REST API backend is powered by Express.js, Node.js with Typescript and PostgreSQL database
-- The front-end is developed with React.js library
+- The app is developed in React Native and React Native Web
 
 ## Prerequisites
 
 - Docker is required to run the application (Note: My docker version - 4.5.1)
-- Add a google maps api key:
-```
-app > .env | REACT_APP_GOOGLE_MAPS_APIKEY=apikey
-```
 
 ## Running the application
 
@@ -25,7 +23,8 @@ app > .env | REACT_APP_GOOGLE_MAPS_APIKEY=apikey
 ```
 docker-compose up -d
 ```
-![image](https://user-images.githubusercontent.com/34171021/156740040-02c516af-ac6b-494a-8387-7b64a2bf078f.png)
+
+<img width="932" alt="Captura de Tela 2022-11-08 às 00 58 44" src="https://user-images.githubusercontent.com/34171021/200557229-70738544-e7cf-4477-953d-ee49c144bddb.png">
 
 - After completing open the browser and access:
 ```
