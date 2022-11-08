@@ -1,4 +1,4 @@
-# Json web token (jwt) authentication with node.js and blacklist for invalid tokens + Example app (Android, iOS and Web)
+# Json web token (jwt) authentication and blacklist for invalid tokens + Example app (Android, iOS and Web)
 
 ## About
 
