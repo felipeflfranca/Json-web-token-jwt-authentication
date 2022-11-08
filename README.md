@@ -31,39 +31,46 @@ docker-compose up -d
 localhost:3000
 ```
 ## Accessing the logs
-![Animação](https://user-images.githubusercontent.com/34171021/156743956-a99061e5-5f63-4e47-96e4-9cb0ee0b45f5.gif)
+<img width="930" alt="Captura de Tela 2022-11-08 às 13 38 56" src="https://user-images.githubusercontent.com/34171021/200623569-a4c78777-7264-4cdc-ab91-b524e71aca25.png">
 
+<img width="929" alt="Captura de Tela 2022-11-08 às 13 40 03" src="https://user-images.githubusercontent.com/34171021/200623788-6379ce39-5d33-4fc3-a1c2-75efd764479a.png">
 
 ## Using the API
 
-### Clinics
+### Login
 
-Insert a new clinic - HTTP /POST
+Login - HTTP /POST
 
 - cURL
 ```
-curl --location --request POST 'localhost:3001/api/clinics' \
+curl --location --request POST 'localhost:3001/api/auth/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name": "Clinica vida",
-    "cnpj": "46563575000113",
-    "address": {
-      "place": "Avenida Dois de Abril",
-      "number": "208",
-      "district": "Urupa",
-      "city": "Ji-Parana",
-      "postalCode": "76900213",
-      "state": "Roraima",
-      "country": "Brasil",
-      "lat": -10.867678,
-      "lng": -61.970721
-    }
-  }'
+    "email": "admin.admin@gmail.com",
+    "password": "123456"
+}'
 ```
 
-Get all clinic - HTTP /GET
+Get user data - HTTP /GET
 
 - cURL
 ```
-curl --location --request GET 'localhost:3001/api/clinics'
+curl --location --request GET 'localhost:3001/api/user' \
+--header 'authorization: ${TOKEN}'
+```
+
+Get all users - HTTP /GET
+
+- cURL
+```
+curl --location --request GET 'localhost:3001/api/user/all' \
+--header 'authorization: ${TOKEN}'
+```
+
+Logout - HTTP /GET
+
+- cURL
+```
+curl --location --request GET 'localhost:3001/api/auth/logout' \
+--header 'authorization: ${TOKEN}'
 ```
