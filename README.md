@@ -8,6 +8,9 @@ The API service allows logging in, retrieving logged user data and logging out.
 - When logging out the token is included in a table (blacklist) 
 - There is a cron configured on the ``server > .env > CLEAR_BLACK_LIST`` that erases the already peeked tokens
 
+Observation: 
+Application under construction (No login form)
+
 ## Development
 
 - REST API backend is powered by Express.js, Node.js with Typescript and PostgreSQL database
