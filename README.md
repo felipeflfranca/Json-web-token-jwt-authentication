@@ -2,7 +2,7 @@
 
 ## About
 
-This work is part of a challenge.
+This code is a dockerized example of a login API service with Json web token (JWT) and a simple app for Android, iOS and web with React Native and React Native Web.
 
 The intention is to create an application where the user can search and obtain the address data along with the latitude and longitude through the Google Maps API, register it in a database and do research by displaying the markers on the map with the name, cnpj and address of the clinic
 
