@@ -4,10 +4,10 @@ WORKDIR /usr/src/server
 
 COPY package*.json ./
 
+EXPOSE 3001
+
 RUN yarn install
 
 COPY . .
 
-EXPOSE 3001
-
-CMD ["yarn", "start"]
+CMD ["yarn", "typeorm migration:run"]

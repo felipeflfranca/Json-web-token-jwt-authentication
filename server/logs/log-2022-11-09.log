@@ -1,0 +1,42 @@
+[2022-11-09 00:14:32] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:14:52] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:15:25] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:15:25] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:15:58] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:15:58] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:16:49] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:16:49] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:17:04] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:17:04] [HTTP] POST /api/auth/login 404 154 - 1.673 ms
+
+[2022-11-09 00:17:04] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:19:21] [HTTP] GET /api 200 17 - 8.648 ms
+
+[2022-11-09 00:19:34] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:19:34] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:19:34] [HTTP] GET /api 200 21 - 2.033 ms
+
+[2022-11-09 00:19:41] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:19:41] [HTTP] GET /api 404 142 - 1.924 ms
+
+[2022-11-09 00:19:41] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:19:42] [HTTP] GET /api 200 17 - 4.917 ms
+
+[2022-11-09 00:19:47] [HTTP] POST /api/auth/login 200 - - 128.870 ms
+
+[2022-11-09 00:20:14] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:20:14] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:20:25] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:20:25] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:20:30] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:20:31] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:40:44] [INFO] SERVICE: The service has started and is listening on port 3001
+[2022-11-09 00:40:45] [INFO] DATABASE: Connection to challenge database successfully established
+[2022-11-09 00:41:32] [HTTP] POST /api/auth/login 200 - - 221.394 ms
+
+[2022-11-09 00:41:45] [HTTP] GET /api/user 200 133 - 117.639 ms
+
+[2022-11-09 00:41:54] [HTTP] GET /api/auth/logout 200 - - 9.342 ms
+
+[2022-11-09 00:41:58] [HTTP] GET /api/user 403 - - 12.137 ms
+

@@ -1,6 +1,7 @@
 version: "4"
 services:
   app:
+    container_name: App
     build: 
       context: ./app
       dockerfile: ./Dockerfile
@@ -10,6 +11,7 @@ services:
       - database
       - server
   server:
+    container_name: Server
     restart: always
     build: 
       context: ./server
@@ -22,7 +24,9 @@ services:
       - database
     links:
       - database
+    command: yarn start
   database:
+    container_name: Postgres
     image: "postgres:14.2"
     ports: 
       - "5433:5432"
