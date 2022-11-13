@@ -1,15 +1,15 @@
 import { Request, Response } from 'express'
 import * as jwt from 'jsonwebtoken'
-import UsersRepository from '../services/repositories/UsersRepository'
+import UserRepository from '../services/repositories/UserRepository'
 import BlackListRepository from '../services/repositories/BlackListRepository'
 import BlackList from '../database/typeorm/entities/BlackList'
 
 export default class AuthController {
-  private usersRepository: UsersRepository
+  private usersRepository: UserRepository
   private blackListRepository: BlackListRepository
 
   constructor() {
-    this.usersRepository = new UsersRepository()
+    this.usersRepository = new UserRepository()
     this.blackListRepository = new BlackListRepository()
   }
 

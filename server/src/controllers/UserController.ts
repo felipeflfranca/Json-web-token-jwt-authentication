@@ -1,11 +1,11 @@
 import { Request, Response } from 'express'
-import UsersRepository from '../services/repositories/UsersRepository'
+import UserRepository from '../services/repositories/UserRepository'
 
-export default class UsersController {
-  private repository: UsersRepository
+export default class UserController {
+  private repository: UserRepository
 
   constructor() {
-    this.repository = new UsersRepository()
+    this.repository = new UserRepository()
   }
 
   getById = async (req: Request, res: Response) => {
